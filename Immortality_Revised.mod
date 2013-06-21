@@ -1,4 +1,4 @@
-name = "Immortality Revised v1.10"
+name = "Immortality Revised v1.11"
 path = "mod/Immortality_Revised"
 extend = "common"
 extend = "events"
