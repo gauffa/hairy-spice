@@ -1,0 +1,86 @@
+####################
+# IMMORTALITY DECISIONS
+####################
+# Written by KaTiON for the "Immortality Revised" mod.
+
+decisions = {
+
+#Make me immortal decision.
+
+	acquire_immortality = {
+		potential = {
+			ai = no
+			is_ruler = yes
+			NOT = {
+				has_character_flag = granting_immortality_check
+			}
+		allow = {
+			ai = no
+			is_ruler = yes
+		}
+		effect = {
+			character_event = { 
+				id = 1000141000
+			}
+			hidden_tooltip = { 
+				set_character_flag = granting_immortality_check
+			}
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+#Make me mortal again decision.
+
+	quit_immortality = {
+		potential= {
+			has_character_flag = immortal_check
+			ai = no
+			is_ruler = yes 
+		allow = {
+			ai = no
+			is_ruler = yes
+		}
+		effect = {
+			character_event = { 
+				id = 1000141001
+			}
+			hidden_tooltip = {
+				clr_character_flag = immortal_check
+			}
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+#Primary set of options regarding immortality.
+
+	primary_options_immortality = {
+		potential = {
+			has_character_flag = immortal_check 
+			ai = no
+			is_ruler = yes
+		allow = {
+			ai = no
+			is_ruler = yes
+		}
+		effect = {
+			character_event = {
+				id = 1000141002 #Triggers "Primary Options" event.
+			}
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}

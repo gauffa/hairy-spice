@@ -1,0 +1,8 @@
+name = "Immortality Revised v1.10"
+path = "mod/Immortality_Revised"
+extend = "common"
+extend = "events"
+extend = "gfx"
+extend = "localisation"
+extend = "decisions"
+extend = "interface"

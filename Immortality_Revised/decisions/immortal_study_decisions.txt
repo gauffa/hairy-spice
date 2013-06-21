@@ -1,0 +1,257 @@
+####################
+# IMMORTALITY STUDY DECISIONS
+####################
+# Written by gauffa for the "Immortality Revised" mod.
+
+decisions = {
+
+#I have eternity to study... Why not get to it?!
+
+	immortal_study_diplomacy = {
+		potential = {
+			ai = no
+			is_ruler = yes
+			
+			NOT = {
+				has_character_flag = immortal_studying_diplomacy
+				has_character_flag = immortal_studying_martial
+				has_character_flag = immortal_studying_intrigue
+				has_character_flag = immortal_studying_learning
+				has_character_flag = immortal_studying_stewardship
+				OR = { diplomacy = 200 }
+			}
+			
+			AND = {
+
+				OR = {
+					trait = normal_immortal 
+					trait = enhanced_immortal
+					trait = hero_immortal
+				}
+
+			}
+		
+		}
+		allow = {
+			ai = no
+			is_ruler = yes
+		}
+		effect = {
+			character_event = { 
+				id = 3000023
+			}
+			hidden_tooltip = { 
+				clr_character_flag = immortal_studying_diplomacy
+				clr_character_flag = immortal_studying_martial
+				clr_character_flag = immortal_studying_intrigue
+				clr_character_flag = immortal_studying_learning
+				clr_character_flag = immortal_studying_stewardship
+			}
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	immortal_study_martial = {
+		potential = {
+			ai = no
+			is_ruler = yes
+			
+			NOT = {
+				has_character_flag = immortal_studying_diplomacy
+				has_character_flag = immortal_studying_martial
+				has_character_flag = immortal_studying_intrigue
+				has_character_flag = immortal_studying_learning
+				has_character_flag = immortal_studying_stewardship
+				OR = { martial = 200 }
+				
+			}
+			
+			AND = {
+
+				OR = {
+					trait = normal_immortal 
+					trait = enhanced_immortal
+					trait = hero_immortal
+				}
+
+			}
+		
+		}
+		allow = {
+			ai = no
+			is_ruler = yes
+		}
+		effect = {
+			character_event = { 
+				id = 3000025
+			}
+			hidden_tooltip = { 
+				clr_character_flag = immortal_studying_diplomacy
+				clr_character_flag = immortal_studying_martial
+				clr_character_flag = immortal_studying_intrigue
+				clr_character_flag = immortal_studying_learning
+				clr_character_flag = immortal_studying_stewardship
+			}
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	immortal_study_intrigue = {
+		potential = {
+			ai = no
+			is_ruler = yes
+			
+			NOT = {
+				has_character_flag = immortal_studying_diplomacy
+				has_character_flag = immortal_studying_martial
+				has_character_flag = immortal_studying_intrigue
+				has_character_flag = immortal_studying_learning
+				has_character_flag = immortal_studying_stewardship
+				OR = { intrigue = 200 }
+				
+			}
+			
+			AND = {
+
+				OR = {
+					trait = normal_immortal 
+					trait = enhanced_immortal
+					trait = hero_immortal
+				}
+
+			}
+		
+		}
+		allow = {
+			ai = no
+			is_ruler = yes
+		}
+		effect = {
+			character_event = { 
+				id = 3000027
+			}
+			hidden_tooltip = { 
+				clr_character_flag = immortal_studying_diplomacy
+				clr_character_flag = immortal_studying_martial
+				clr_character_flag = immortal_studying_intrigue
+				clr_character_flag = immortal_studying_learning
+				clr_character_flag = immortal_studying_stewardship
+			}
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	immortal_study_learning = {
+		potential = {
+			ai = no
+			is_ruler = yes
+			
+			NOT = {
+				has_character_flag = immortal_studying_diplomacy
+				has_character_flag = immortal_studying_martial
+				has_character_flag = immortal_studying_intrigue
+				has_character_flag = immortal_studying_learning
+				has_character_flag = immortal_studying_stewardship
+				OR = { learning = 200 }
+				
+			}
+			
+			AND = {
+
+				OR = {
+					trait = normal_immortal 
+					trait = enhanced_immortal
+					trait = hero_immortal
+				}
+
+			}
+		
+		}
+		allow = {
+			ai = no
+			is_ruler = yes
+		}
+		effect = {
+			character_event = { 
+				id = 3000029
+			}
+			hidden_tooltip = { 
+				clr_character_flag = immortal_studying_diplomacy
+				clr_character_flag = immortal_studying_martial
+				clr_character_flag = immortal_studying_intrigue
+				clr_character_flag = immortal_studying_learning
+				clr_character_flag = immortal_studying_stewardship
+			}
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	immortal_study_stewardship = {
+		potential = {
+			ai = no
+			is_ruler = yes
+			
+			NOT = {
+				has_character_flag = immortal_studying_diplomacy
+				has_character_flag = immortal_studying_martial
+				has_character_flag = immortal_studying_intrigue
+				has_character_flag = immortal_studying_learning
+				has_character_flag = immortal_studying_stewardship
+				OR = { stewardship = 200 }
+				
+			}
+			
+			AND = {
+
+				OR = {
+					trait = normal_immortal 
+					trait = enhanced_immortal
+					trait = hero_immortal
+				}
+
+			}
+		
+		}
+		allow = {
+			ai = no
+			is_ruler = yes
+		}
+		effect = {
+			character_event = { 
+				id = 3000031
+			}
+			hidden_tooltip = { 
+				clr_character_flag = immortal_studying_diplomacy
+				clr_character_flag = immortal_studying_martial
+				clr_character_flag = immortal_studying_intrigue
+				clr_character_flag = immortal_studying_learning
+				clr_character_flag = immortal_studying_stewardship
+			}
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}

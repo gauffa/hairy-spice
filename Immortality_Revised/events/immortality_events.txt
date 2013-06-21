@@ -1,0 +1,231 @@
+####################
+# IMMORTALITY EVENTS
+####################
+# Written by KaTiON for the "Immortality Revised" mod.
+
+#If player chooses immortality
+
+character_event = {
+	id = 1000141000
+	title = EVTNAME1000141000
+	desc = EVTDESC1000141000
+	picture = GFX_evt_comet
+	
+	is_triggered_only = yes
+	only_playable = yes
+	prisoner = no
+	
+	option = {
+		name = EVTIMGENERAL1
+		add_trait = normal_immortal
+		hidden_tooltip = { 
+			set_character_flag = normal_immortal_check
+			set_character_flag = immortal_check
+		}
+	}
+	option = {
+		name = EVTIMGENERAL2
+		add_trait = enhanced_immortal
+		hidden_tooltip = {
+			set_character_flag = enhanced_immortal_check
+			set_character_flag = immortal_check
+		}
+	}
+	option = {
+		name = EVTIMGENERAL3
+		add_trait = hero_immortal
+		hidden_tooltip = {
+			set_character_flag = hero_immortal_check
+			set_character_flag = immortal_check
+		}
+	}
+	option = {
+		name = EVTIMGENERAL4
+		hidden_tooltip = {
+			clr_character_flag = granting_immortality_check
+			}
+		}
+	}
+
+#If player chooses mortality
+
+character_event = {
+	id = 1000141001
+	title = EVTNAME1000141001
+	desc = EVTDESC1000141001
+	picture = GFX_evt_comet
+		
+	is_triggered_only = yes
+	only_playable = yes
+	prisoner = no
+	
+	option = {
+		name = EVTIMGENERAL5
+		remove_trait = normal_immortal
+		remove_trait = enhanced_immortal
+		remove_trait = hero_immortal
+		hidden_tooltip = {
+			clr_character_flag = granting_immortality_check
+			clr_character_flag = normal_immortal_check
+			clr_character_flag = enhanced_immortal_check
+			clr_character_flag = hero_immortal_check
+		}
+	}
+	option = {
+		name = EVTIMGENERAL6
+		hidden_tooltip = {
+			set_character_flag = immortal_check
+			}
+		}
+	}
+
+#If player chooses primary options
+
+character_event = {
+	id= 1000141002
+	title = EVTNAME1000141002
+	desc = EVTDESC1000141002
+	
+	is_triggered_only = yes
+	only_playable = yes
+	prisoner = no
+	
+	option = {
+		name = EVTIMPRIMARY1
+		character_event = {
+			id = 1000141003 #Triggers "Family" option.
+		}
+	}
+	option = {
+		name = EVTIMPRIMARY2
+		character_event = {
+			id = 1000141004 #Triggers "Enemy" option.
+		}
+	}
+	option = {
+		name = EVTIMPRIMARY3
+		character_event = {
+			id = 1000141005 #In case the player wants to exit without doing changes.
+		}
+	}
+}
+
+##If player chooses family option (from primary options)
+
+character_event = {
+	id = 1000141003
+	title = EVTNAME1000141003
+	desc = EVTDESC1000141003
+	picture = GFX_evt_family
+	
+	is_triggered_only = yes
+	only_playable = yes
+	prisoner = no
+	
+	option = {
+		name = EVTIMFAMILY1
+		character_event = {
+			id = 1000141006 #Triggers "Heir" option.
+		}
+	}
+	option = {
+		name  = EVTIMFAMILY2
+		character_event = {
+			id = 1000141007 #Triggers "Children" option.
+		}
+	}
+	option = {
+		name = EVTIMFAMILY3
+		character_event = {
+			id = 1000141008 #Triggers "Spouse" option.
+		}
+	}
+}
+
+###If player chooses heir (from family options)
+
+character_event = {
+	id = 1000141006
+	title = EVTNAME1000141006
+	desc = EVTDESC1000141006
+	picture = GFX_evt_guardian
+	
+	is_triggered_only = yes
+	only_playable = yes
+	prisoner = no
+
+	option = {
+		name = EVTIMHEIR1
+		current_heir = {
+			add_trait = normal_immortal
+		}
+	}
+	option = {
+		name = EVTIMHEIR2
+		current_heir = {
+			remove_trait = normal_immortal
+		}
+	}
+	option = {
+		name = EVTIMHEIR3
+	}
+}
+
+
+###If player chooses Children (from family options)
+
+character_event = {
+	id = 1000141007
+	title = EVTNAME1000141007
+	desc = EVTDESC1000141007
+	picture = GFX_evt_child_talking
+	
+	is_triggered_only = yes
+	only_playable = yes
+	prisoner = no
+	
+	option = {
+		name = EVTIMCHILDREN1
+		any_child  = {
+			add_trait = normal_immortal
+		}
+	}
+	option = {
+		name = EVTIMCHILDREN2
+		any_child  = {
+			remove_trait = normal_immortal
+		}
+	}
+	option = {
+		name = EVTIMCHILDREN3
+	}
+}
+
+###If Player chooses Spouse (from family options)
+
+character_event = {
+	id = 1000141008
+	title = EVTNAME1000141008
+	desc = EVTDESC1000141008
+	picture = GFX_evt_courtiers_talking
+	
+	is_triggered_only = yes
+	only_playable = yes
+	prisoner = no
+	
+	option = {
+		name = EVTIMSPOUSE1
+		spouse = {
+			add_trait = normal_immortal
+		}
+	}
+	option = {
+		name = EVTIMSPOUSE2
+		spouse = {
+			remove_trait = normal_immortal
+		}
+	}
+	option = {
+		name = EVTIMSPOUSE3
+	}
+	}

@@ -1,0 +1,603 @@
+character_event = {
+	id = 3000018
+	desc = "I finally have some time to apply to my diplomatic studies!"
+#	hide_from = yes
+	
+	trigger = { 
+	
+	has_character_flag = immortal_studying_diplomacy
+	
+		AND = {
+
+			NOT = { diplomacy = 200 }
+
+		}
+		
+	}
+
+		mean_time_to_happen = {	months = 24 }
+
+		option = {
+			name = "I'll just buy a few books on the subject!"
+			scaled_wealth = -0.01
+			random = {
+				chance = 10
+					character_event = { 
+					id = 3000101
+					}
+				}
+		}
+		option = {
+			name = "I am willing to spend a bit of money to find a decent teacher."
+			scaled_wealth = -0.05
+			random = {
+				chance = 50
+					character_event = { 
+					id = 3000101
+					}
+				}
+			}
+			
+		option = {
+			name = "Let me find the most learned masters in the realm!"
+			scaled_wealth = -0.1
+			random = {
+				chance = 90
+					character_event = { 
+					id = 3000101
+					}
+				}
+
+			}
+		
+#		option = {
+#			name = "I am interested in increasing my knowledge but I simply cannot afford it."
+#		}
+		
+		option = {
+			name = "I tire of my studies! No more books, no more tutors!"
+				clr_character_flag = immortal_studying_diplomacy
+				clr_character_flag = immortal_studying_martial
+				clr_character_flag = immortal_studying_intrigue
+				clr_character_flag = immortal_studying_learning
+				clr_character_flag = immortal_studying_stewardship
+		}
+}
+character_event = {
+	id = 3000019
+	desc = "I finally have some time to apply to my martial studies!"
+#	hide_from = yes
+	
+	trigger = { 
+	
+	has_character_flag = immortal_studying_martial
+	
+		AND = {
+
+			NOT = { martial = 200 }
+
+		}
+		
+	}
+
+		mean_time_to_happen = {	months = 24 }
+
+		option = {
+			name = "I'll just buy a few books on the subject!"
+			scaled_wealth = -0.01
+			random = {
+				chance = 10
+					character_event = { 
+					id = 3000102
+					}
+				}
+		}
+		option = {
+			name = "I am willing to spend a bit of money to find a decent teacher."
+			scaled_wealth = -0.05
+			random = {
+				chance = 50
+					character_event = { 
+					id = 3000102
+					}
+				}
+			}
+			
+		option = {
+			name = "Let me find the most learned masters in the realm!"
+			scaled_wealth = -0.1
+			random = {
+				chance = 90
+					character_event = { 
+					id = 3000102
+					}
+				}
+
+			}
+		
+#		option = {
+#			name = "While I am interested in increasing my knowledge I simply cannot afford it."
+#		}
+		
+		option = {
+			name = "I tire of my studies! No more books, no more tutors!"
+				clr_character_flag = immortal_studying_diplomacy
+				clr_character_flag = immortal_studying_martial
+				clr_character_flag = immortal_studying_intrigue
+				clr_character_flag = immortal_studying_learning
+				clr_character_flag = immortal_studying_stewardship
+		}
+}
+
+character_event = {
+	id = 3000020
+	desc = "I finally have some time to apply to my intrigue studies!"
+#	hide_from = yes
+	
+	trigger = { 
+	
+	has_character_flag = immortal_studying_intrigue
+	
+		AND = {
+
+			NOT = { intrigue = 200 }
+
+		}
+		
+	}
+
+		mean_time_to_happen = {	months = 24 }
+
+		option = {
+			name = "I'll just buy a few books on the subject!"
+			scaled_wealth = -0.01
+			random = {
+				chance = 10
+					character_event = { 
+					id = 3000103
+					}
+				}
+		}
+		option = {
+			name = "I am willing to spend a bit of money to find a decent teacher."
+			scaled_wealth = -0.05
+			random = {
+				chance = 50
+					character_event = { 
+					id = 3000103
+					}
+				}
+			}
+			
+		option = {
+			name = "Let me find the most learned masters in the realm!"
+			scaled_wealth = -0.1
+			random = {
+				chance = 90
+					character_event = { 
+					id = 3000103
+					}
+				}
+
+			}
+		
+#		option = {
+#			name = "While I am interested in increasing my knowledge I simply cannot afford it."
+#		}
+		
+		option = {
+			name = "I tire of my studies! No more books, no more tutors!"
+				clr_character_flag = immortal_studying_diplomacy
+				clr_character_flag = immortal_studying_martial
+				clr_character_flag = immortal_studying_intrigue
+				clr_character_flag = immortal_studying_learning
+				clr_character_flag = immortal_studying_stewardshipe 
+		}
+}
+
+character_event = {
+	id = 3000021
+	desc = "I finally have some time to apply to my learning studies!"
+#	hide_from = yes
+	
+	trigger = { 
+	
+	has_character_flag = immortal_studying_learning
+	
+		AND = {
+
+			NOT = { learning = 200 }
+
+		}
+		
+	}
+
+		mean_time_to_happen = {	months = 24 }
+
+		option = {
+			name = "I'll just buy a few books on the subject!"
+			scaled_wealth = -0.01
+			random = {
+				chance = 10
+					character_event = { 
+					id = 3000104
+					}
+				}
+		}
+		option = {
+			name = "I am willing to spend a bit of money to find a decent teacher."
+			scaled_wealth = -0.05
+			random = {
+				chance = 50
+					character_event = { 
+					id = 3000104
+					}
+				}
+			}
+			
+		option = {
+			name = "Let me find the most learned masters in the realm!"
+			scaled_wealth = -0.1
+			random = {
+				chance = 90
+					character_event = { 
+					id = 3000104
+					}
+				}
+
+			}
+		
+#		option = {
+#			name = "While I am interested in increasing my knowledge I simply cannot afford it."
+#		}
+		
+		option = {
+			name = "I tire of my studies! No more books, no more tutors!"
+				clr_character_flag = immortal_studying_diplomacy
+				clr_character_flag = immortal_studying_martial
+				clr_character_flag = immortal_studying_intrigue
+				clr_character_flag = immortal_studying_learning
+				clr_character_flag = immortal_studying_stewardship
+		}
+}
+
+character_event = {
+	id = 3000022
+	desc = "I finally have some time to apply to my stewardship studies!"
+#	hide_from = yes
+	
+	trigger = { 
+	
+	has_character_flag = immortal_studying_stewardship
+	
+		AND = {
+
+			NOT = { stewardship = 200 }
+
+		}
+		
+	}
+
+		mean_time_to_happen = {	months = 24 }
+
+		option = {
+			name = "I'll just buy a few books on the subject!"
+			scaled_wealth = -0.01
+			random = {
+				chance = 10
+					character_event = { 
+					id = 3000105
+					}
+				}
+		}
+		option = {
+			name = "I am willing to spend a bit of money to find a decent teacher."
+			scaled_wealth = -0.05
+			random = {
+				chance = 50
+					character_event = { 
+					id = 3000105
+					}
+				}
+			}
+			
+		option = {
+			name = "Let me find the most learned masters in the realm!"
+			scaled_wealth = -0.1
+			random = {
+				chance = 90
+					character_event = { 
+					id = 3000105
+					}
+				}
+
+			}
+		
+#		option = {
+#			name = "While I am interested in increasing my knowledge I simply cannot afford it."
+#		}
+		
+		option = {
+			name = "I tire of my studies! No more books, no more tutors!"
+				clr_character_flag = immortal_studying_diplomacy
+				clr_character_flag = immortal_studying_martial
+				clr_character_flag = immortal_studying_intrigue
+				clr_character_flag = immortal_studying_learning
+				clr_character_flag = immortal_studying_stewardship
+		}
+}
+		
+character_event = {
+	id = 3000023
+	desc = "Having realized you have nothing but time on your hands you have decided to improve your knowledge and skill in the art of diplomacy."
+#	hide_from = yes
+
+	is_triggered_only = yes
+	
+		option = {
+			name = "I will have the finest tutors and books for my studies!"
+			scaled_wealth = -0.33
+			set_character_flag = immortal_studying_diplomacy
+		}
+		
+		option = {
+			name = "I am not ready to commit the time or money needed for such an endeavour."
+		}
+}
+
+character_event = {
+	id = 3000024
+	desc = "You have learned all that you can from tutors and the like. You have mastered the art of diplomacy!"
+#	hide_from = yes
+	
+	trigger = { has_character_flag = immortal_studying_diplomacy
+	
+		AND = { diplomacy = 200 }
+
+	}
+
+		mean_time_to_happen = {	months = 1 }
+
+		option = {
+			name = "I am ready to move on to a new studies!"
+				clr_character_flag = immortal_studying_diplomacy
+				clr_character_flag = immortal_studying_martial
+				clr_character_flag = immortal_studying_intrigue
+				clr_character_flag = immortal_studying_learning
+				clr_character_flag = immortal_studying_stewardship
+			}
+
+}
+	
+character_event = {
+	id = 3000025
+	desc = "Having realized you have nothing but time on your hands you have decided to improve your knowledge and skill in the art of martial."
+#	hide_from = yes
+
+	is_triggered_only = yes
+	
+		option = {
+			name = "I will have the finest tutors and books for my studies!"
+			scaled_wealth = -0.33
+			set_character_flag = immortal_studying_martial
+		}
+		
+		option = {
+			name = "I am not ready to commit the time or money needed for such an endeavour."
+		}
+}
+
+character_event = {
+	id = 3000026
+	desc = "You have learned all that you can from tutors and the like. You have mastered the art of martial!"
+#	hide_from = yes
+	
+	trigger = { has_character_flag = immortal_studying_martial
+	
+		AND = { martial = 200 }
+
+	}
+
+		mean_time_to_happen = {	months = 1 }
+
+		option = {
+			name = "I am ready to move on to a new studies!"
+				clr_character_flag = immortal_studying_diplomacy
+				clr_character_flag = immortal_studying_martial
+				clr_character_flag = immortal_studying_intrigue
+				clr_character_flag = immortal_studying_learning
+				clr_character_flag = immortal_studying_stewardship
+			}
+
+}
+
+character_event = {
+	id = 3000027
+	desc = "Having realized you have nothing but time on your hands you have decided to improve your knowledge and skill in the art of intrigue."
+#	hide_from = yes
+
+	is_triggered_only = yes
+	
+		option = {
+			name = "I will have the finest tutors and books for my studies!"
+			scaled_wealth = -0.33
+			set_character_flag = immortal_studying_intrigue
+		}
+		
+		option = {
+			name = "I am not ready to commit the time or money needed for such an endeavour."
+		}
+}
+
+character_event = {
+	id = 3000028
+	desc = "You have learned all that you can from tutors and the like. You have mastered the art of intrigue!"
+#	hide_from = yes
+	
+	trigger = { has_character_flag = immortal_studying_intrigue
+	
+		AND = { intrigue = 200 }
+
+	}
+
+		mean_time_to_happen = {	months = 1 }
+
+		option = {
+			name = "I am ready to move on to a new studies!"
+				clr_character_flag = immortal_studying_diplomacy
+				clr_character_flag = immortal_studying_martial
+				clr_character_flag = immortal_studying_intrigue
+				clr_character_flag = immortal_studying_learning
+				clr_character_flag = immortal_studying_stewardship
+			}
+
+}
+
+character_event = {
+	id = 3000029
+	desc = "Having realized you have nothing but time on your hands you have decided to improve your knowledge and skill in the art of learning."
+#	hide_from = yes
+
+	is_triggered_only = yes
+	
+		option = {
+			name = "I will have the finest tutors and books for my studies!"
+			scaled_wealth = -0.33
+			set_character_flag = immortal_studying_learning
+		}
+		
+		option = {
+			name = "I am not ready to commit the time or money needed for such an endeavour."
+		}
+}
+
+character_event = {
+	id = 3000030
+	desc = "You have learned all that you can from tutors and the like. You have mastered the art of learning!"
+#	hide_from = yes
+	
+	trigger = { has_character_flag = immortal_studying_learning
+	
+		AND = { learning = 200 }
+
+	}
+
+		mean_time_to_happen = {	months = 1 }
+
+		option = {
+			name = "I am ready to move on to a new studies!"
+				clr_character_flag = immortal_studying_diplomacy
+				clr_character_flag = immortal_studying_martial
+				clr_character_flag = immortal_studying_intrigue
+				clr_character_flag = immortal_studying_learning
+				clr_character_flag = immortal_studying_stewardship
+			}
+
+}
+
+character_event = {
+	id = 3000031
+	desc = "Having realized you have nothing but time on your hands you have decided to improve your knowledge and skill in the art of stewardship."
+#	hide_from = yes
+
+	is_triggered_only = yes
+	
+		option = {
+			name = "I will have the finest tutors and books for my studies!"
+			scaled_wealth = -0.33
+			set_character_flag = immortal_studying_stewardship
+		}
+		
+		option = {
+			name = "I am not ready to commit the time or money needed for such an endeavour."
+		}
+}
+
+character_event = {
+	id = 3000032
+	desc = "You have learned all that you can from tutors and the like. You have mastered the art of stewardship!"
+#	hide_from = yes
+	
+	trigger = { has_character_flag = immortal_studying_stewardship
+	
+		AND = { stewardship = 200 }
+
+	}
+
+		mean_time_to_happen = {	months = 1 }
+
+		option = {
+			name = "I am ready to move on to a new studies!"
+				clr_character_flag = immortal_studying_diplomacy
+				clr_character_flag = immortal_studying_martial
+				clr_character_flag = immortal_studying_intrigue
+				clr_character_flag = immortal_studying_learning
+				clr_character_flag = immortal_studying_stewardship
+			}
+
+}
+
+character_event = { 
+	id = 3000101
+	desc = "You have successfully improved your diplomatic abilities!"
+	picture = "GFX_evt_courtiers_talking"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = Excellent!
+		change_diplomacy = 1
+	}
+}
+
+character_event = { 
+	id = 3000102
+	desc = "You have successfully improved your martial abilities!"
+	picture = "GFX_evt_family_feud_republic"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = Excellent!
+		change_martial = 1
+	}
+}
+
+character_event = { 
+	id = 3000103
+	desc = "You have successfully improved your intrigue abilities!"
+	picture = "GFX_evt_whispering_in_ear"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = Excellent!
+		change_intrigue = 1
+	}
+}
+
+character_event = { 
+	id = 3000104
+	desc = "You have successfully improved your learning abilities!"
+	picture = "GFX_evt_monk_illuminating_book"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = Excellent!
+		change_learning = 1
+	}
+}
+
+character_event = { 
+	id = 3000105
+	desc = "You have successfully improved your stewardship abilities!"
+	picture = "GFX_evt_character_reading_library"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = Excellent!
+		change_stewardship = 1
+	}
+}

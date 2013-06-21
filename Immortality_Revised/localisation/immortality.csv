@@ -1,0 +1,76 @@
+normal_immortal;Immortality;;;;;;;;;;;;;x
+normal_immortal_desc;This character, although not appearing to age, can still be killed by earthly actions.;;;;;;;;;;;;;x
+enhanced_immortal;Enhanced Immortality;;;;;;;;;;;;;x
+enhanced_immortal_desc;This character is known for not dieing from either sword or disease, which gives the person some reputation amongst its peers.;;;;;;;;;;;;;x
+hero_immortal;Heroic Immortality;;;;;;;;;;;;;x
+hero_immortal_desc;This character is a living demi-god with unmeasurable potential, will this person use this power for good or for evil?;;;;;;;;;;;;;x
+acquire_immortality;Acquire Immortality;;;;;;;;;;;;;x
+acquire_immortality_desc;Immortality is something lusted by many, you have the exclusive opportunity of becoming one yourself, plus, you can choose three different kinds of immortalities!;;;;;;;;;;;;;x
+quit_immortality;Give up Immortality;;;;;;;;;;;;;x
+quit_immortality_desc;Sometimes immortality itself can become a burden, you can choose to give up this wonderful gift and become mortal again. ;;;;;;;;;;;;;x
+primary_options_immortality;Immortality Options;;;;;;;;;;;;;x
+primary_options_immortality_desc;You can use this menu to show additional settings regarding Immortality.;;;;;;;;;;;;;
+EVTNAME1000141000;Acquiring Immortality;;;;;;;;;;;;;x
+EVTDESC1000141000;[From.GetTitledFirstName], you have been given three flavors of immortality, choose wisely. ;;;;;;;;;;;;;x
+EVTNAME1000141001;Giving up on Immortality;;;;;;;;;;;;;x
+EVTDESC1000141001;[From.GetTitledFirstName], there are occasions where being immortal is a burden, you have the choice to end it and become mortal again, prone to the malices of age. ;;;;;;;;;;;;;x
+EVTNAME1000141002;Immortality - Primary Options;;;;;;;;;;;;;
+EVTDESC1000141002;With this menu you can select any of the given option to open the appropriate sub-menu.;;;;;;;;;;;;;
+EVTIMGENERAL1;Make me Immortal!;;;;;;;;;;;;;x
+EVTIMGENERAL2;Make me an Enhanced Immortal!;;;;;;;;;;;;;x
+EVTIMGENERAL3;Make me an Hero!;;;;;;;;;;;;;x
+EVTIMGENERAL4;On second thought, I don't want to become immortal.;;;;;;;;;;;;;x
+EVTIMGENERAL5;Make me mortal again!;;;;;;;;;;;;;x
+EVTIMGENERAL6;On second thought, I'll stick to being immortal for a bit longer.;;;;;;;;;;;;;x
+EVTIMPRIMARY1;Family Options.;;;;;;;;;;;;;x
+EVTIMPRIMARY2;Enemy Options.;;;;;;;;;;;;;x
+EVTIMPRIMARY3;I don't wish to change anything at the moment.;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;
+EVTNAME1000141003;Immortality - Family Options;;;;;;;;;;;;;x
+EVTDESC1000141003;With this menu you select if you want to focus on your children or your spouse.;;;;;;;;;;;;;x
+EVTIMCHILDREN1;Make my children Immortal!;;;;;;;;;;;;;x
+EVTIMCHILDREN2;Remove my children's immortality!;;;;;;;;;;;;;x
+EVTIMCHILDREN3;I don't wish to change anything at the moment.;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;
+EVTNAME1000141006;Immortality - Heir;;;;;;;;;;;;;x
+EVTDESC1000141006;With this menu you can choose to make your heir immortal or not.;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;
+EVTNAME1000141007;Immortality - Children;;;;;;;;;;;;;x
+EVTDESC1000141007;With this menu you can make your children immortal or not.;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;
+EVTIMFAMILY1;Heir;;;;;;;;;;;;;x
+EVTIMFAMILY2;Children;;;;;;;;;;;;;x
+EVTIMFAMILY3;Spouse;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;
+EVTIMHEIR1;Make my heir Immortal!;;;;;;;;;;;;;x
+EVTIMHEIR2;Make my heir mortal again!;;;;;;;;;;;;;x
+EVTIMHEIR3;I don't wish to change anything at the moment.;;;;;;;;;;;;;x
+EVTIMSPOUSE1;Make my spouse Immortal!;;;;;;;;;;;;;x
+EVTIMSPOUSE2;Remove my spouse's immortality!;;;;;;;;;;;;;x
+EVTIMSPOUSE3;I don't wish to change anything at the moment.;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;
+EVTNAME1000141008;Immortality - Spouse;;;;;;;;;;;;;x
+EVTDESC1000141008;With this menu you can make your spouse immortal or not.;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;
+immortal_study_stewardship;Study Stewardship;;;;;;;;;;;;;x
+immortal_study_learning;Study Learning;;;;;;;;;;;;;x
+immortal_study_intrigue;Study Intrigue;;;;;;;;;;;;;x
+immortal_study_martial;Study Martial;;;;;;;;;;;;;x
+immortal_study_diplomacy;Study Diplomacy;;;;;;;;;;;;;x
+immortal_study_stewardship_desc;With focused effort and limitless time you can improve your skill to great heights;;;;;;;;;;;;;x
+immortal_study_learning_desc;With focused effort and limitless time you can improve your skill to great heights;;;;;;;;;;;;;x
+immortal_study_intrigue_desc;With focused effort and limitless time you can improve your skill to great heights;;;;;;;;;;;;;x
+immortal_study_martial_desc;With focused effort and limitless time you can improve your skill to great heights;;;;;;;;;;;;;x
+immortal_study_diplomacy_desc;With focused effort and limitless time you can improve your skill to great heights;;;;;;;;;;;;;x
+imm_study_dip;Studying Diplomacy;;;;;;;;;;;;;x
+imm_study_dip_desc;This character is actively studying diplomacy and seeking teachers in the subject.;;;;;;;;;;;;;x
+imm_study_mar;Studying Martial;;;;;;;;;;;;;x
+imm_study_mar_desc;This character is actively studying martial skills and seeking teachers in the subject.;;;;;;;;;;;;;x
+imm_study_int;Studying Intrigue;;;;;;;;;;;;;x
+imm_study_int_desc;This character is actively studying the art of intrigue and seeking teachers in the subject.;;;;;;;;;;;;;x
+imm_study_stw;Studying Stewardship;;;;;;;;;;;;;x
+imm_study_stw_desc;This character is actively studying stewarship and seeking teachers in the subject.;;;;;;;;;;;;;x
+imm_study_lrn;Studying Learning;;;;;;;;;;;;;x
+imm_study_lrn_desc;This character is actively studying the art of learning and seeking teachers in the subject.;;;;;;;;;;;;;x

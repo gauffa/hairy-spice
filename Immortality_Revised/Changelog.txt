@@ -1,0 +1,23 @@
+Changelog 1.10:
+Gameplay changes:
+* Added new decision "Primary Options". In it, players can find two events trees in "Family Options". NOTE: "Enemy" event tree is still unfinished.
+* Heir can now be granted/revoked immortality via an event in "Family Options -> Heir".
+* Children can now be granted/revoked immortality via an event in "Family Options -> Descendants".
+* Spouse can now be granted/revoked immortality via an event in "Family Options -> Spouse".
+
+General changes:
+* "Acquire Immortality" and "Give up Immortality" aren't high priority events any more. You can now find these decisions somewhere in the decisions window now.
+
+Localisation:
+* Added localisation for new events, still not organized.
+
+Changelog 1.02:
+General changes:
+* Added some comments in "immortality_events", "immortality_decisions" and "immortal_traits".
+Localisation changes:
+* Changed localisation in "normal_immortal" to Immortality (previously Immortal), "enhanced_immortal" to Enhanced Immortality (previously Enhanced Immortal) and "hero_immortal" to Heroic Immortality (previously Heroic Immortal).
+* Modified the text on "normal_immortal_desc".
+* Fixed more localisation errors where I forgot to place an "x" on the appropriate section.
+
+Changelog 1.01:
+* Fixed a localization error where "Acquire" was spelled as "Aquire".

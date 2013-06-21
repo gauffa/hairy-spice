@@ -1,0 +1,92 @@
+##################################################
+#
+# STRATEGIC EFFECTS - A.K.A. "TRIGGERED MODIFIERS"
+#
+##################################################
+
+# Bankruptcy
+negative_money = {
+	potential = {
+		is_ruler = yes
+	}
+	
+	trigger = {
+		NOT = { wealth = 0 }
+	}
+	
+	icon = 24
+	
+	land_morale = -0.25
+	
+	active = no
+}
+
+###########
+## Immortal Studies MOD 
+###########
+
+imm_study_dip = {
+	potential = {
+		is_ruler = yes
+		}
+		
+	trigger = {
+		has_character_flag = immortal_studying_diplomacy
+	}
+		
+	icon = 12
+		
+}
+
+imm_study_mar = {
+	potential = {
+		is_ruler = yes
+		}
+		
+	trigger = {
+		has_character_flag = immortal_studying_martial
+	}
+		
+	icon = 12
+		
+}
+
+
+imm_study_int = {
+	potential = {
+		is_ruler = yes
+		}
+		
+	trigger = {
+		has_character_flag = immortal_studying_intrigue
+	}
+		
+	icon = 12
+		
+}
+
+imm_study_lrn = {
+	potential = {
+		is_ruler = yes
+		}
+		
+	trigger = {
+		has_character_flag = immortal_studying_learning
+	}
+		
+	icon = 12
+		
+}
+
+imm_study_stw = {
+	potential = {
+		is_ruler = yes
+		}
+		
+	trigger = {
+		has_character_flag = immortal_studying_stewardship
+	}
+		
+	icon = 12
+		
+}
