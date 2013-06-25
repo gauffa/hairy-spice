@@ -9,7 +9,7 @@ character_event = {
 	
 		AND = {
 
-			NOT = { diplomacy = 200 }
+			NOT = { diplomacy = 120 }
 
 		}
 		
@@ -74,7 +74,7 @@ character_event = {
 	
 		AND = {
 
-			NOT = { martial = 200 }
+			NOT = { martial = 120 }
 
 		}
 		
@@ -140,7 +140,7 @@ character_event = {
 	
 		AND = {
 
-			NOT = { intrigue = 200 }
+			NOT = { intrigue = 120 }
 
 		}
 		
@@ -206,7 +206,7 @@ character_event = {
 	
 		AND = {
 
-			NOT = { learning = 200 }
+			NOT = { learning = 120 }
 
 		}
 		
@@ -272,7 +272,7 @@ character_event = {
 	
 		AND = {
 
-			NOT = { stewardship = 200 }
+			NOT = { stewardship = 120 }
 
 		}
 		
@@ -352,7 +352,7 @@ character_event = {
 	
 	trigger = { has_character_flag = immortal_studying_diplomacy
 	
-		AND = { diplomacy = 200 }
+		AND = { diplomacy = 120 }
 
 	}
 
@@ -394,7 +394,7 @@ character_event = {
 	
 	trigger = { has_character_flag = immortal_studying_martial
 	
-		AND = { martial = 200 }
+		AND = { martial = 120 }
 
 	}
 
@@ -436,7 +436,7 @@ character_event = {
 	
 	trigger = { has_character_flag = immortal_studying_intrigue
 	
-		AND = { intrigue = 200 }
+		AND = { intrigue = 120 }
 
 	}
 
@@ -478,7 +478,7 @@ character_event = {
 	
 	trigger = { has_character_flag = immortal_studying_learning
 	
-		AND = { learning = 200 }
+		AND = { learning = 120 }
 
 	}
 
@@ -520,7 +520,7 @@ character_event = {
 	
 	trigger = { has_character_flag = immortal_studying_stewardship
 	
-		AND = { stewardship = 200 }
+		AND = { stewardship = 120 }
 
 	}
 

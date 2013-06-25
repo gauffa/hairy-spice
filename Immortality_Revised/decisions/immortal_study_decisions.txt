@@ -18,7 +18,7 @@ decisions = {
 				has_character_flag = immortal_studying_intrigue
 				has_character_flag = immortal_studying_learning
 				has_character_flag = immortal_studying_stewardship
-				OR = { diplomacy = 200 }
+				OR = { diplomacy = 120 }
 			}
 			
 			AND = {
@@ -67,7 +67,7 @@ decisions = {
 				has_character_flag = immortal_studying_intrigue
 				has_character_flag = immortal_studying_learning
 				has_character_flag = immortal_studying_stewardship
-				OR = { martial = 200 }
+				OR = { martial = 120 }
 				
 			}
 			
@@ -117,7 +117,7 @@ decisions = {
 				has_character_flag = immortal_studying_intrigue
 				has_character_flag = immortal_studying_learning
 				has_character_flag = immortal_studying_stewardship
-				OR = { intrigue = 200 }
+				OR = { intrigue = 120 }
 				
 			}
 			
@@ -167,7 +167,7 @@ decisions = {
 				has_character_flag = immortal_studying_intrigue
 				has_character_flag = immortal_studying_learning
 				has_character_flag = immortal_studying_stewardship
-				OR = { learning = 200 }
+				OR = { learning = 120 }
 				
 			}
 			
@@ -217,7 +217,7 @@ decisions = {
 				has_character_flag = immortal_studying_intrigue
 				has_character_flag = immortal_studying_learning
 				has_character_flag = immortal_studying_stewardship
-				OR = { stewardship = 200 }
+				OR = { stewardship = 120 }
 				
 			}
 			
