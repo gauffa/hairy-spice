@@ -1,1 +1,0 @@
-CHARACTER_TOOLTIP_DELAYED;§G Debug Info:§!\n ID: [GetID]\n Age: [GetAgeYears]\n Player-[GetInstantPlayerOpinion]\n Liege-[GetInstantLiegeOpinion]\n Ambition: [GetAmbition]\n Objective: [GetObjective] ;[GetDebugInfo];[GetDebugInfo];;[GetDebugInfo];;;;;;;;;x
