@@ -1,0 +1,75 @@
+####################
+# IMMORTALITY COMBAT DECISIONS
+####################
+# Written by gauffa for the "Immortality Revised" mod.
+
+decisions = {
+
+#I really HATE losing soldiers to all this mayhem I bring about!
+
+	immortal_combat_defense = {
+		potential = {
+			ai = no
+			is_ruler = yes
+			
+			NOT = {
+				trait = immortal_defense
+				OR = {
+					trait = hero_immortal
+				}
+			}
+			
+#			AND = {
+#
+#				OR = {
+#					trait = normal_immortal 
+#					trait = enhanced_immortal
+#				}
+#
+#			}
+		
+		}
+		allow = {
+			ai = no
+			is_ruler = yes
+		}
+		effect = {
+			character_event = { 
+				id = 3000090
+			}
+
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	immortal_combat_defense_remove = {
+		potential = {
+			ai = no
+			is_ruler = yes
+			
+			trait = immortal_defense
+			
+		
+		}
+		allow = {
+			ai = no
+			is_ruler = yes
+		}
+		effect = {
+			character_event = { 
+				id = 3000091
+			}
+
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}

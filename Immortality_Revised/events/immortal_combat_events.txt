@@ -1,0 +1,36 @@
+	
+character_event = {
+	id = 3000090
+	desc = "You have prayed and the gods have answered!"
+#	hide_from = yes
+
+	is_triggered_only = yes
+	
+		option = {
+			name = "The soldiers under your command will be blessed and no foe will stand against them!"
+#			scaled_wealth = -0.33
+			add_trait = immortal_defense
+		}
+		
+		option = {
+			name = "Not today. I are the scared!"
+		}
+}
+
+character_event = {
+	id = 3000091
+	desc = "You have prayed and the gods have answered!"
+#	hide_from = yes
+
+	is_triggered_only = yes
+	
+		option = {
+			name = "The soldiers under your command are no longer under divine protection!"
+#			scaled_wealth = -0.33
+			remove_trait = immortal_defense
+		}
+		
+		option = {
+			name = "Not today. I are the scared!"
+		}
+}

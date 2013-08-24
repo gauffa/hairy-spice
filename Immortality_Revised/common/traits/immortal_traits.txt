@@ -76,4 +76,20 @@ hero_immortal= {
 	}
 }
 	
-	
+####################
+# IMMORTAL DEFENSE
+####################
+
+immortal_defense= {
+
+	customizer = no	
+
+	command_modifier = {
+		light_infantry = 100.0
+		heavy_infantry = 100.0
+		cavalry = 100.0
+#		pursue = 100.0
+		morale_defence = 100.0
+		defence = 100.0
+	}
+}
