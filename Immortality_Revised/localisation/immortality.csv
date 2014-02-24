@@ -74,3 +74,9 @@ imm_study_stw;Studying Stewardship;;;;;;;;;;;;;x
 imm_study_stw_desc;This character is actively studying stewarship and seeking teachers in the subject.;;;;;;;;;;;;;x
 imm_study_lrn;Studying Learning;;;;;;;;;;;;;x
 imm_study_lrn_desc;This character is actively studying the art of learning and seeking teachers in the subject.;;;;;;;;;;;;;x
+immortal_defense;Diety Defense;;;;;;;;;;;;;x
+immortal_defense_desc;Your diety has charged your troops with unparallelled power!;;;;;;;;;;;;;x
+immortal_combat_defense_remove;Diety Defense lost!;;;;;;;;;;;;;x
+immortal_combat_defense_remove_desc;;Diety Defense has been lost!;;;;;;;;;;;;;x
+immortal_combat_defense;Diety Defense gained!;;;;;;;;;;;;;x
+immortal_combat_defense_desc;Diety Defense has been gained!;;;;;;;;;;;;;x

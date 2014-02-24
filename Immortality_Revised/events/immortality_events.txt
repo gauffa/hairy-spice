@@ -71,6 +71,13 @@ character_event = {
 			clr_character_flag = hero_immortal_check
 		}
 	}
+
+	option = {
+		name = Abdicate in favor of your Heir
+		piety = 100
+		death = { death_reason = death_sacrificed }
+		}
+	
 	option = {
 		name = EVTIMGENERAL6
 		hidden_tooltip = {

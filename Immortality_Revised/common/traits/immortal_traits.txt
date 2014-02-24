@@ -26,6 +26,7 @@ normal_immortal = {
 	monthly_character_prestige = 0.15
 	monthly_character_piety = 0.10
 	same_religion_opinion = 5
+	#fertility = -0.5
 }
 
 ######################
@@ -41,6 +42,7 @@ enhanced_immortal= {
 	monthly_character_prestige = 0.30
 	monthly_character_piety = 0.20
 	same_religion_opinion = 10
+	#fertility = -0.75
 }
 	
 ####################
@@ -62,7 +64,7 @@ hero_immortal= {
 	stewardship = 100
 	intrigue = 100
 	learning = 100
-	
+	#fertility = -1
 	command_modifier = {
 		light_infantry = 10.0
 		heavy_infantry = 10.0
@@ -82,14 +84,16 @@ hero_immortal= {
 
 immortal_defense= {
 
-	customizer = no	
+	customizer = no
 
 	command_modifier = {
-		light_infantry = 100.0
-		heavy_infantry = 100.0
-		cavalry = 100.0
-#		pursue = 100.0
-		morale_defence = 100.0
-		defence = 100.0
+		light_infantry = 10.0
+		heavy_infantry = 10.0
+		cavalry = 10.0
+#		pursue = 10.0
+		morale_defence = 10.0
+		defence = 10.0
+		damage = 5.0
+		morale_offence = 5.0
 	}
 }
