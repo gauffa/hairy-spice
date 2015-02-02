@@ -1,11 +1,11 @@
 #HEAL EVERYTHING
 character_event = {
 	id = 3000002
-	desc = "The power of your immortallity has healed your sickness!"
+	desc = "The power of your immortality has healed your sickness!"
 	picture = "GFX_evt_recovery"
 
 	trigger = {
-#		trait = legacy
+
 		OR = {
 			trait = normal_immortal 
 			trait = enhanced_immortal
